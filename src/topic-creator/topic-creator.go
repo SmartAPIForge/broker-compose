@@ -8,7 +8,7 @@ import (
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 )
 
-var topics = []string{"NewZip", "ProjectStatus", "DeployPayload"}
+var topics = []string{"NewZip", "ProjectStatus", "DeployPayload", "NewUser"}
 
 type TopicCreator struct {
 	broker string

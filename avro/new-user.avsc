@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "NewUser",
+  "namespace": "com.smartapiforge",
+  "fields": [
+    { "name": "username", "type": "string" },
+    { "name": "email", "type": "string" }
+  ]
+}
