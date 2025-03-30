@@ -13,6 +13,7 @@ import (
 var schemas = map[string]string{
 	"NewZip":        path.Join("avro", "newzip.avsc"),
 	"ProjectStatus": path.Join("avro", "project-status.avsc"),
+	"DeployPayload": path.Join("avro", "deploy-payload.avsc"),
 }
 
 type SchemaUploader struct {
